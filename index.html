@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      html{
+        background-color: #121212;
+      }
+      .container{
+        display: flex;
+        justify-content: center;
+
+      }
+      .gridcontainer{
+        display: grid;
+        grid-template-columns: repeat(6, 190px);
+
+
+      }
+      .face{
+        color: black;
+            background-color: rgb(42, 42, 42);
+            padding: 10px;
+            margin: 10px;
+            width: 150px;
+            height: 170px;
+            border-radius: 15px;
+            font-size: 16px;
+            color: white;
+
+      }
+      .faceImage{
+        opacity: 1;
+        height: 150px;
+        width: 146px;
+        border-radius: 15px;
+        border: darkgray solid;
+        
+      }
+
+
+
+    </style>
+</head>
+<body>
+    <div id = "app"></div>
+    <script>
+      updateView()
+      function updateView(){
+        app = document.getElementById('app');
+        app.innerHTML = /*html*/`
+<div class = "container">
+        <div class = "gridcontainer">
+        <div class = "face"> -- Roblox Gigachad---<img src = "RobloxGigaChad.png"onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face"> -- Steve<img src = "Steve.jpg"onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- Arthur Morgan<img src = "Arthur.jpg"onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- Salvador<img src = "Salvador.jpg"onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- Kyu<img src = "Kyu.jpg"onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- Cripps<img src = "Cripps.jpg"onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- Shell Shock<img src = "Shellshock.jpg"onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- Joe Swanson<img src = "Joe.png"onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- Alex<img src = "Alex.png"onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+        <div class = "face">-- <img src = ""onclick = "Remove(this)" class = "faceImage"></div>
+  
+
+        </div>   
+        </div>
+        
+        
+        `
+
+        
+      }  
+
+      function Remove(element){
+        let style = true;
+        if(style = true){
+          element.style = "opacity: 30%;";
+        style = false;
+        }
+        updateview()
+
+
+      }
+    </script>
+</body>
+</html>
